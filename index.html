@@ -6,12 +6,12 @@
     <title>Strategic B2B Growth Plan for Explurger | Aneesh Thakral</title>
     <style>
         :root {
-            --primary: #f97316; /* A dynamic, energetic orange */
+            --primary: #f97316;
             --primary-dark: #ea580c;
             --bg: #f8fafc;
             --text: #1e293b;
             --card-bg: #ffffff;
-            --accent: #0284c7; /* Professional blue for contrast */
+            --accent: #0284c7;
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -114,19 +114,42 @@
         .metric-value { font-size: 2rem; font-weight: bold; color: var(--primary-dark); display: block; }
         .metric-label { font-size: 0.9rem; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
 
+        /* Button Styles */
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
         .btn {
             display: inline-block;
             background: var(--primary);
             color: white;
-            padding: 1rem 2rem;
+            padding: 0.8rem 1.8rem;
             text-decoration: none;
             border-radius: 8px;
             font-weight: bold;
             transition: background 0.3s;
             text-align: center;
+            border: 2px solid var(--primary);
         }
-        .btn:hover { background: var(--primary-dark); }
+        .btn:hover { background: var(--primary-dark); border-color: var(--primary-dark); }
         
+        .btn-outline {
+            display: inline-block;
+            background: transparent;
+            color: var(--primary-dark);
+            padding: 0.8rem 1.8rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s;
+            text-align: center;
+            border: 2px solid var(--primary);
+        }
+        .btn-outline:hover { background: var(--primary); color: white; }
+
         .tags span {
             display: inline-block;
             background: #e2e8f0;
@@ -156,7 +179,7 @@
             <p>To scale Explurger's revenue, we don't need to sell ad space. We need to sell <strong>customer acquisition at a fraction of the cost</strong>. Here is exactly how I would pitch this to a high-value prospect like Scapia.</p>
 
             <div class="highlight-box">
-                <h3>The Scapia Strategy (The Invisible Bridge)</h3>
+                <h3>The Scapia Strategy (The Anchor Pitch)</h3>
                 <p><strong>The Problem:</strong> Scapia targets international travelers but is currently burning up to ₹3,500 to acquire a single user through crowded Google and Meta feeds.</p>
                 <p><strong>The Explurger Pitch:</strong> We integrate Scapia natively into Explurger's gamified rewards. When a user's AI Travelogue verifies they've hit the "Spectra" tier or logged 10,000 international miles, they unlock a zero-forex Scapia card as a hard-earned reward.</p>
                 <p><strong>The Outcome:</strong> Scapia acquires a 100% verified, high-spend traveler natively, slashing their CAC. Explurger secures a highly lucrative, multi-year enterprise partnership.</p>
@@ -184,7 +207,7 @@
                     <ul>
                         <li><strong>Deep Immersion:</strong> Shadow current B2B partnership calls to understand the existing narrative and product limits.</li>
                         <li><strong>Account Mapping:</strong> Build a highly targeted hit-list of 30 enterprise brands (Fintech, Premium Luggage, Adventure Tech) suffering from high CAC.</li>
-                        <li><strong>AI Co-pilot Setup:</strong> Build custom research workflows to instantly analyze target brand ad spend and draft hyper-personalized, story-driven outreach.</li>
+                        <li><strong>AI Co-pilot Setup:</strong> Build custom research workflows using Claude and ChatGPT to instantly analyze target brand ad spend and draft hyper-personalized, story-driven outreach.</li>
                     </ul>
                     <div class="tags">
                         <span>Account Mapping</span> <span>Claude/ChatGPT Workflow</span> <span>Active Listening</span>
@@ -196,8 +219,8 @@
             <div class="panel">
                 <div class="panel-content">
                     <ul>
-                        <li><strong>Refine the Narrative:</strong> Shift all outreach from "feature dumping" (selling user metrics) to transformation stories (solving their CAC pain points).</li>
-                        <li><strong>Visual Micro-Pitches:</strong> Use tools like Gamma and Napkin AI to build highly specific, visual flowcharts for brands like Mokobara and Scapia, showing exactly how they fit into the Explurger ecosystem.</li>
+                        <li><strong>Refine the Narrative:</strong> Shift all outreach from "feature dumping" to transformation stories (solving their CAC pain points).</li>
+                        <li><strong>Visual Micro-Pitches:</strong> Use tools like Gamma and Napkin AI to build highly specific, visual flowcharts for brands like Mokobara and DJI, showing exactly how they fit into the Explurger ecosystem.</li>
                         <li><strong>Secure the Pilots:</strong> Push for 2-3 initial pilot integrations with warm, agile brands to prove the gamification model works.</li>
                     </ul>
                     <div class="tags">
@@ -206,12 +229,12 @@
                 </div>
             </div>
 
-            <button class="accordion">Days 61-90: Deal Velocity & RevOps Alignment</button>
+            <button class="accordion">Days 61-90: Deal Velocity & Enterprise Consensus</button>
             <div class="panel">
                 <div class="panel-content">
                     <ul>
-                        <li><strong>Drive Conversions:</strong> Use emotionally intelligent negotiation to move pilot accounts into long-term, retained enterprise contracts.</li>
-                        <li><strong>Cross-Functional Feedback:</strong> Bring direct market feedback from these brands back to Explurger's product and marketing teams to refine the "Rewards" UX.</li>
+                        <li><strong>Navigate Complex Deals:</strong> Guide pilot accounts into long-term enterprise contracts by building consensus across their Marketing, Product, and Finance teams.</li>
+                        <li><strong>Cross-Functional Feedback:</strong> Bring direct market feedback from these brands back to Explurger's product teams to refine the "Rewards" UX.</li>
                         <li><strong>Knowledge Share:</strong> Document successful AI prompts, outreach templates, and objection-handling strategies for the wider sales team.</li>
                     </ul>
                     <div class="tags">
@@ -223,19 +246,23 @@
 
         <div class="card">
             <h2>Why I Can Execute This</h2>
-            <p>I don’t just sell software; I solve business problems through stories. I am bringing over <strong>8 years of B2B enterprise sales experience</strong>, coupled with a deep understanding of brand positioning from <strong>3+ years in media agencies</strong>.</p>
+            <p>I don’t just sell software; I navigate complex enterprise deals and build consensus. I bring over <strong>8+ years of B2B sales experience</strong> spanning international and national markets.</p>
             
-            <p>I know how brands think about their advertising spend, and I know how to reframe Explurger from a "nice-to-have social platform" into a critical customer acquisition channel.</p>
+            <p>Currently, as a Senior Sales Manager for an international OEM, I am closing in on <strong>$1M in revenue</strong> for this financial year, having delivered <strong>$248K in the last quarter alone</strong>. I know how to drive velocity and close.</p>
             
             <ul style="margin-bottom: 2rem;">
-                <li><strong>Consultative Problem Solver:</strong> I shift the focus from the product to the client's biggest friction point.</li>
+                <li><strong>C-Suite Navigation:</strong> I have sold to everyone from agile MSMEs to Fortune 500 executives. I know how to align conflicting priorities across Marketing, Product, Procurement, Legal, HR, and Finance.</li>
+                <li><strong>Agency Insights:</strong> My foundation includes managing F500 accounts in a media agency and driving white-labeled partnerships. I know exactly how brands view their ad spend and how to position Explurger as a superior acquisition channel.</li>
                 <li><strong>AI-Augmented Execution:</strong> I use AI not to cut corners, but as a co-pilot to research deeper, personalize better, and move faster.</li>
-                <li><strong>Human-First Approach:</strong> In a world of automated spam, I build trust through empathy, clarity, and real conversations.</li>
             </ul>
 
-            <div style="text-align: center; margin-top: 2rem;">
-                <p style="font-size: 1.2rem; margin-bottom: 1.5rem;"><strong>Let's talk about scaling this pipeline.</strong></p>
-                <a href="[Your LinkedIn URL]" class="btn">Connect with Aneesh Thakral</a>
+            <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e2e8f0;">
+                <p style="font-size: 1.25rem; margin-bottom: 1rem;"><strong>Let's talk about scaling this pipeline.</strong></p>
+                <div class="btn-group">
+                    <a href="https://www.linkedin.com/in/aneeshthakral/" target="_blank" class="btn">Connect on LinkedIn</a>
+                    <a href="https://aneeshthakral.my.canva.site/sales-portfolio-aneesh-thakral" target="_blank" class="btn-outline">View Sales Portfolio</a>
+                    <a href="https://topmate.io/aneeshthakral/" target="_blank" class="btn-outline">Book a Call</a>
+                </div>
             </div>
         </div>
 
